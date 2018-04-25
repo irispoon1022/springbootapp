@@ -1,3 +1,4 @@
+//maven project
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -7,6 +8,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
+//spring parent makes sure the dependencies work well with each other
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -21,23 +23,29 @@
   </properties>
 
   <dependencies>
+//dependency for web
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+	  
+//dependency for database
 	<dependency>
 	    <groupId>org.springframework.boot</groupId>
 	    <artifactId>spring-boot-starter-data-jpa</artifactId>
 	</dependency>
+	  	  
+//dependency for database
 	<dependency>
 		<groupId>com.h2database</groupId>
 		<artifactId>h2</artifactId>
 	</dependency>
+//dependency for database
 	<dependency>
 		<groupId>org.flywaydb</groupId>
 	  	<artifactId>flyway-core</artifactId>
 	</dependency>
-
+//dependency for testing
 	<dependency>
 	    <groupId>org.springframework.boot</groupId>
 	    <artifactId>spring-boot-starter-test</artifactId>
