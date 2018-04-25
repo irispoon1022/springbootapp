@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.boot.model.Shipwreck;
 import com.boot.repository.ShipwreckRepository;
-
+//用RestController和RequestMapping处理API call
 @RestController
 @RequestMapping("api/v1/")
 public class ShipwreckController {
