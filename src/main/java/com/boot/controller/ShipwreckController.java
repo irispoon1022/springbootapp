@@ -16,7 +16,7 @@ import com.boot.repository.ShipwreckRepository;
 @RestController
 @RequestMapping("api/v1/")
 public class ShipwreckController {
-	
+	//connecting the database (shipwreckRepository.java)
 	@Autowired
 	private ShipwreckRepository shipwreckRepository;
 
