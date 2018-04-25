@@ -1,5 +1,5 @@
 package com.boot;
-
+//这个文档感觉像一个摆设
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
