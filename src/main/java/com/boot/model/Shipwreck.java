@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Shipwreck {
+	//generate the primary key
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	Long id;
