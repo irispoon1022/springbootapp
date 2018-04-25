@@ -1,3 +1,4 @@
+//correspond to the file of /main/java/com/boot/model/Shipwreck.java
 CREATE TABLE SHIPWRECK(
 	ID INT AUTO_INCREMENT,
 	NAME VARCHAR(255),
